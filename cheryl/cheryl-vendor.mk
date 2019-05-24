@@ -664,10 +664,10 @@ PRODUCT_PACKAGES += \
     libantradio \
     libgpustats \
     libsdm-disp-vndapis \
-    ims \
     uceShimService \
     CNEService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     QtiTelephonyService \
     datastatusnotification \
