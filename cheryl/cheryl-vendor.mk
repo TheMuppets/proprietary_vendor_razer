@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/razer/cheryl/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/razer/cheryl/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/razer/cheryl/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/razer/cheryl/proprietary/etc/hdr_tm_config.xml:system/etc/hdr_tm_config.xml \
     vendor/razer/cheryl/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/razer/cheryl/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
@@ -71,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/cheryl/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/razer/cheryl/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/razer/cheryl/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/razer/cheryl/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
     vendor/razer/cheryl/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/razer/cheryl/proprietary/lib64/libfiltergenerator.so:system/lib64/libfiltergenerator.so \
     vendor/razer/cheryl/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
