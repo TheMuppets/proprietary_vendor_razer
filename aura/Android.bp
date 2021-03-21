@@ -116,7 +116,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "razer",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
+	certificate: ":timeservice_app_cert",
 	dex_preopt: {
 		enabled: false,
 	},
