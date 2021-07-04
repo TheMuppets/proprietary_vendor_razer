@@ -66,17 +66,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "razer",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "razer",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -176,11 +165,5 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "razer",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
